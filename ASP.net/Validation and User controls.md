@@ -1,7 +1,7 @@
 # Validation Controls
 ### All the validation controls in ASP.Net inherit the properties and methods of the BaseValidator class. 
 - The important properties and methods of the BaseValidator class are:
-   1. **ControlToValidate** – It indicates the input control to validate. It must be a unique value throughout the form. This attribute is a mandatory one as it is used to associate the input control with a validation control.
+   1. **ControlToValidate** – It indicates the input control to validate. It must be a unique value throughout the form. 
    2. **Enabled** – It enables or disables the validator.
    3. **Text** – It holds the message to be displayed in the event of a validation failure.
    4. **ErrorMessage** – The value in this attribute is displayed either when ValidationSummary control is used or when Text property is missing.
